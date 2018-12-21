@@ -1,37 +1,85 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/JammyKalungi/IReporter/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JammyKalungi/IReporter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>iReporter || Report Corruption and Seek Government Intervention</title>
+	<link rel="stylesheet" type="text/css" href="UI/css/main.css">
+</head>
+<body>
+  <!-- Begin of header Section -->
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1 class="logo-name">i<span class="green-color">Reporter</span></h1>
+			</div>
+			<div class="nav">
+        
+<a class="login-link" href="UI/login.html">Login</a>
+					<a class="signup-link" href="UI/signup.html">Sign Up</a>
+			</div>
+		</div>
+  </header>
+  <!-- End of header Section -->
+  <!-- Begin of background image Section -->
+	  <section class="background-img">
+			<div class="container">
+          <h2 class="background-title">Report Corruption</h2>
+          <p class="background-paragraph">
+              Corruption is a huge bane to Africa�s development. African countries must develop novel and
+              localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables
+              any/every citizen to bring any form of corruption to the notice of appropriate authorities and the
+              general public. Users can also report on things that needs government intervention.
+          </p>
+          <div class="background-link">
+            <a href="UI/login.html" class="btn btn-white">Login</a>
+            <a href="UI/signup.html" class="btn btn-hollow">Sign Up</a>
+          </div>
+			</div>
+    </section>
+    <!-- End of background image Section -->
+    <!-- Begin How It Works Section -->
+    <section class="how-to">
+      <div class="container">
+          <h2 class="section-title">How it works</h2>
+          <p class="section-text">
+            In 3 easy steps you can easily report corruption cases and seek
+            government intervention.
+          </p>
+          <div class="steps">
+            <div class="column step">
+              <span class="circle-icon">1</span>
+              <p class="section-text">
+                Create and submit a red flag or intervention record. Set a title,
+                attach images/videos and input your location.
+              </p>
+            </div>
+            <div class="column step">
+              <span class="circle-icon">2</span>
+              <p class="section-text">
+                Your record gets submitted to the appropriate authority and
+                process is put in place to start reviewing your record.
+              </p>
+            </div>
+            <div class="column step">
+              <span class="circle-icon">3</span>
+              <p class="section-text">
+                Your record gets reviewed and you get a real time email feedback
+                upon completion of the reviews.
+              </p>
+            </div>
+          </div>
+      </div>
+      
+    </section>
+    <!-- End of How It Works Section -->
+    <!-- Begin of footer Section -->
+		<footer class="mb-1">
+      <div>
+        <h3 class="copyright">iReporter &copy; 2018 </h3>
+      </div>
+    </footer>
+    <!-- End of footer Section -->
+</body>
+</html>
